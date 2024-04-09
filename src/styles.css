@@ -1,8 +1,18 @@
 * {
     margin: 0;
     padding: 0;
-    border: 0;
     box-sizing: border-box;
+    font-family: "Barlow", sans-serif;
+    color: inherit;
+    
+    
+}
+
+body {
+    background-image: url('../docs/background.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     
 }
 
@@ -15,23 +25,98 @@
     margin-right: auto;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
-    border: 1px solid black;
+    
+    
   }
 
 
-/* xs */
-@media (min-width: 475px) {
+a {
+    text-decoration: none;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+#nav-bar {
+    display: flex;
+    justify-content: end;
+
+} 
+
+.nav-item img {
+    width: 1rem;
+    height: 1rem;
+    line-height: 1;
+}
+
+.profile-picture {
+    width: 300px; /* Set the desired width of the profile picture */
+    height: 300px; /* Set the desired height of the profile picture */
+    border-radius: 50%; /* Apply rounded corners to make it circular */
+    overflow: hidden; /* Hide any overflow content */
+}
+
+.profile-picture img {
+    width: 100%; /* Ensure the image fills the container */
+    height: 100%; /* Maintain aspect ratio */
+    object-fit: cover;
+  }
+
+
+
+@media (min-width: 475px)  {        
+    
     #responsive-container {
       max-width: 475px;
     }
-  }
+
+}
+
   
-  /* sm */
+
   @media (min-width: 640px) {
     #responsive-container {
       max-width: 640px;
     }
-  }
+
+}
+/* max mobile */
+@media (max-width: 767px) {
+ 
+    .hero-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h1 {
+        padding: 2rem;
+    }
+
+    h2 {
+        text-align: center;
+        padding: 2rem;
+    }
+
+    p {
+        text-align: center;
+        padding: 2rem;
+    }
+
+    #nav-bar {
+        justify-content: space-around;
+        padding: 10px;
+        font-size: 1rem;
+        
+        
+        
+    }
+}
+
+
   
   /* md */
   @media (min-width: 768px) {
@@ -61,8 +146,3 @@
     }
   }
 
-
-#nav-bar {
-    display: flex;
-    justify-content: end;
-}
