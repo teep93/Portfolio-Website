@@ -4,6 +4,8 @@
     box-sizing: border-box;
     font-family: "Barlow", sans-serif;
     color: inherit;
+    background-color: #E61C2B;
+    color: white;
     
     
 }
@@ -84,9 +86,27 @@ ul {
 .footer-container {
     margin-top: 5rem;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
 
-}  
+} 
+
+.footer-container a {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.footer-container img {
+    height: 2rem;
+    width: 2rem;
+    
+    
+}
+
+.skills-box img {
+    object-fit:fill;
+    
+}
 
 
 
@@ -108,7 +128,7 @@ ul {
 }
 /* max mobile */
 @media (max-width: 767px) {
- 
+    /*home page*/ 
     .hero-text {
         display: flex;
         flex-direction: column;
@@ -189,6 +209,51 @@ ul {
     .blog-preview-text a {
         align-self: flex-end;
         text-decoration: underline;
+    }
+
+    /* About page */
+    .about-me-container {
+        display:flex;
+        text-align: center;
+        
+        
+    }
+
+    .about-me-container p {
+        
+        font-size: 1rem;
+    }
+
+    .about-me-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 500px;
+    }
+
+    .skills-container {
+        text-align: center;
+
+    }
+
+    .skills-boxes {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 20rem;
+        width: 100%;
+        gap: 1rem;
+        
+    }
+
+    .skills-box + .skills-box {
+        display: flex;
+        justify-content: center;
+        height: 100px;
+        width: 100px;
+        
+        
+        
     }
 
 
