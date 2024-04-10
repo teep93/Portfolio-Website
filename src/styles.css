@@ -272,6 +272,43 @@ ul {
         display: flex;
         justify-content: center;
 
+
+    }
+
+    .blog-post-title {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+    }
+
+    .blog-wrapper h1 {
+        text-align: center;
+    }
+
+    .blog-post-title h3 {
+        font-size: 2rem;
+        height: 100px;
+    }
+
+    .blog-post-title h4 {
+        font-size: 1.5rem;
+        text-decoration:underline;
+        
+    }
+
+    .blog-post-content {
+        margin-bottom: 75px;
+    }
+
+    
+    .blog-post-content p {
+        font-size: 1.5rem;
+        
+    }
+
+    .blog-post-content img {
+        display: none;
     }
 
 
