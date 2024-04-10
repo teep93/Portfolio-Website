@@ -256,6 +256,24 @@ ul {
         
     }
 
+    .work-history {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        height: 500px;
+        gap: 1rem;
+    }
+
+    .work-history p {
+        font-size: 1rem;
+    }
+
+    .resume-link {
+        display: flex;
+        justify-content: center;
+
+    }
+
 
 }
 
