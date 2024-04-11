@@ -29,6 +29,7 @@ body {
     padding-right: 0.5rem;
     
     
+    
   }
 
 p {
@@ -48,8 +49,7 @@ ul {
 
 #nav-bar {
     display: flex;
-    justify-content: end;
-    
+    position: fixed;
     
 
 } 
@@ -126,9 +126,14 @@ ul {
       max-width: 640px;
     }
 
+
 }
 /* max mobile */
+
+
 @media (max-width: 767px) {
+
+
     /*home page*/ 
     .hero-text {
         display: flex;
@@ -163,10 +168,15 @@ ul {
 
     #nav-bar {
         justify-content: space-around;
+        width: 700px;
         padding: 10px;
         font-size: 1rem; 
+        top: 0;
+        left: 0;
+        
         
     }
+
     
     .profile-picture {
         margin: 20px;
@@ -276,6 +286,8 @@ ul {
 
     }
 
+    /*blog page*/
+
     .blog-post-title {
         display: flex;
         flex-direction: column;
@@ -311,6 +323,8 @@ ul {
     .blog-post-content img {
         display: none;
     }
+
+    /* project page */
 
     .project-title h1 {
         text-align: center;
@@ -364,7 +378,7 @@ ul {
         height: 50px;
         width: 200px;
         margin-top: 20px;
-        justify-content: space-around;
+
         
     }
 
@@ -382,11 +396,8 @@ ul {
         width: 1em;
         
     }
-
-
-
-
 }
+
 
 
   
@@ -402,6 +413,63 @@ ul {
     #responsive-container {
       max-width: 1024px;
     }
+  }
+
+  @media (max-width: 1200px) {
+    /*home page */
+
+    
+
+    .hero-text {
+        padding-top: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        font-size:xx-large;
+        
+    }
+
+    .more-about-me-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 10%;
+        text-align: center;
+        
+        
+    }
+
+    .more-about-me-container p {
+        font-size: x-large;
+    }
+
+    .more-about-me-container a {
+        text-align: right;
+        font-size: large;
+    }
+
+    .blog-wrapper {
+        margin-top: 8%;
+    }
+    .blog-preview {
+        display: flex;
+        flex-direction: row;
+    }
+    .blog-preview-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        
+        margin: 0;
+        margin-left: 3%;
+    }
+
+    .blog-preview-text :nth-child(1) {
+        text-decoration: underline;
+        margin: 0;
+    }
+
   }
   
   /* xl */
