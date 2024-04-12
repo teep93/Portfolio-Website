@@ -48,8 +48,7 @@ ul {
     position: fixed;
     width: 100%;
     background-color: #4F4F4F;
-    opacity: 0.9;
-    
+    opacity: 0.9;  
     
 
 } 
@@ -61,6 +60,7 @@ ul {
 
 #nav-bar * {
     background-color: #4F4F4F;
+    
 }
 
 
@@ -104,6 +104,21 @@ ul {
 
 }
 
+b {
+    color: #0077FF
+}
+
+button {
+        background-color: #FA8072; 
+        color: #fff; 
+        padding: 10px 20px; 
+        border: none; 
+        border-radius: 5px; 
+        cursor: pointer; 
+        font-size: 16px; 
+        font-weight: bold; 
+}
+
 .image-container img {
     width: 100%; 
     height: 100%; 
@@ -144,11 +159,13 @@ ul {
         align-items: center;
     }
 
+
+
+
     .hero-text a {
         font-size: 2rem;
-        border: 1px solid black;
         padding: 10px;
-        
+        background-color: #FA8072;
         
     }
 
@@ -309,12 +326,19 @@ ul {
         font-size: 1rem;
     }
 
+ 
     .resume-link {
-        display: flex;
         justify-content: center;
+    }
 
+    .resume-link a {
+       
+        background-color: inherit;
+        align-content: 
 
     }
+
+  
 
     .blog-preview-text :nth-child(1) {
         text-decoration: underline;
@@ -401,29 +425,10 @@ ul {
 
     .project-buttons {
         display: flex;
-        size: 3rem;
         gap: 1rem;
-        height: 50px;
-        width: 200px;
-        margin-top: 20px;
-
-        
     }
 
-    .project-buttons button {
-        font-size: 1rem;
-        display: flex;
-        text-align: left;
-        align-content: center;
-        font-size: 1rem;
-        
-    }
 
-    .project-buttons img {
-        height: 1em;
-        width: 1em;
-        
-    }
 
     
 
@@ -557,3 +562,5 @@ ul {
         flex-direction: column;
     }
   }
+
+
