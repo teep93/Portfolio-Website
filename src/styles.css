@@ -134,6 +134,8 @@ ul {
     
 }
 
+
+
     /*home page*/ 
     .hero-text {
         display: flex;
@@ -531,6 +533,8 @@ ul {
     .project-info > p {
         display: none;
     }
+
+    
 
   }
 
