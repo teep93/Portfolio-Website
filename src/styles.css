@@ -64,6 +64,10 @@ ul {
     width: 100%;
 }
 
+#nav-bar * {
+    background-color: #4F4F4F;
+}
+
 
 .nav-item a {
     font-size: 1.5rem;
@@ -525,5 +529,11 @@ ul {
     #nav-bar {
         justify-content: flex-end;
         gap: 2rem;
+    }
+  }
+
+  @media (max-width: 424px) {
+    .nav-item img {
+        display: none;
     }
   }
