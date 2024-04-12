@@ -225,6 +225,7 @@ ul {
         display:flex;
         text-align: center;
         justify-content: center;
+        align-items: center;
         
         
     }
@@ -235,13 +236,12 @@ ul {
         font-size: 1rem;
     }
 
-    .about-me-text {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        
+
+    .hero-text li {
+        font-size: 2rem;
     }
 
+  
     .skills-container {
         text-align: center;
 
@@ -251,7 +251,7 @@ ul {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        height: 20rem;
+        height: 10%;
         width: 100%;
         gap: 1rem;
         
