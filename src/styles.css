@@ -64,8 +64,12 @@ ul {
 }
 
 
-#nav-item a {
-    font-size: 2rem;
+.nav-item a {
+    font-size: 1.5rem;
+    background-color:#4F4F4F;
+    text-decoration: none;
+    
+    
     
 }
 
@@ -73,6 +77,7 @@ ul {
     width: 2rem;
     height: 2rem;
     vertical-align: middle;
+    background-color:#4F4F4F
     
 }
 
@@ -262,9 +267,14 @@ ul {
         justify-content: center;
         height: 100px;
         width: 100px;
+        border: 0.5px solid white;
+            
         
         
-        
+    }
+
+    .skills-box img {
+        background-color:#4F4F4F;
     }
 
     .work-history {
