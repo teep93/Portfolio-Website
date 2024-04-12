@@ -129,7 +129,7 @@ button {
   
 
 .footer-container {
-    margin-top: 5rem;
+    /* margin-top: 5rem; */
     display: flex;
     justify-content:space-between;
     
@@ -216,7 +216,7 @@ button {
     }
 
     .blog-preview-text {
-        margin-top: 25px;
+        margin-top: 1rem;
         display: flex;
         flex-direction: column;
         text-align:left;
@@ -234,7 +234,7 @@ button {
     }
 
     .blog-preview-text p, h2, a {
-        margin-top: 25px;
+        margin-top: 1rem;
     }
 
     .blog-preview-text a {
@@ -251,6 +251,7 @@ button {
 
     .socials > .skills-boxes > .skills-box {
         margin-top: 3rem;
+        margin-bottom: 3rem;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -334,7 +335,7 @@ button {
     .resume-link a {
        
         background-color: inherit;
-        align-content: 
+       
 
     }
 
@@ -563,4 +564,10 @@ button {
     }
   }
 
+.blog-wrapper {
+    margin-top: 1rem;
+}
 
+.blog-wrapper > h1 {
+    margin-bottom: 2rem;
+}
