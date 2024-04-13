@@ -1,8 +1,7 @@
 # README
 
 ## Portfolio Website
-URL HERE
-GITHUB REPO HERE
+https://github.com/teep93/Portfolio_Website
 
 ## Purpose
 
@@ -58,21 +57,21 @@ I have utilised a range of technology to make the website possible. This is a li
 
 ### Design
 
--Figma
--Draw.io
+ - Figma
+ - Draw.io
 
 ### Implementation
 
--HTML5
--CSS3
--VS CODE
+ - HTML5
+ - CSS3
+ - VS CODE
 
 ### Assets
 
-https://imageresizer.com/
-https://www.pexels.com/
-https://pictogrammers.com/library/mdi/
-https://fonts.google.com/
+https://imageresizer.com/ <br>
+https://www.pexels.com/ <br>
+https://pictogrammers.com/library/mdi/ <br>
+https://fonts.google.com/ <br>
 
 ## Page Overview
 
