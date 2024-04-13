@@ -136,43 +136,14 @@ I first started with a moodboard of colors, designs, hobbies and interests to ge
 
 ![Moodboard](./docs/Moodboard.png)
 
+(All wireframes located in /docs)
+
 I then visited a bunch of already created portfolio websites to get an idea of how those developers had designed the layout and look of their website and also saw patterns forming which helped me create a simple wireframe for each page.
 
-I only made simple wireframes as I felt that high fidelity wireframes would take too long and since there isn't a huge amount of information and pages that need to be done for the entire site I would use them as only a guide for how I want the main components to be placed. I will detail under each wireframe how I ultimately made design changes to the website while using the wireframes as a base.
-
-![Home page - Desktop](./docs/Home-page-wireframe-desktop.jpg)
-
-![Home page - Tablet](./docs/Home-page-wireframe-tablet.jpg)
-
-![Home page - Mobile](./docs/Home-page-wireframe-mobile.jpg)
-
-Starting with the home page, I wanted big bold headings that introduced me immediately with a profile picture that would let the employer put a face to the name. I designed the shape of the image to be circular so that it was very clearly a profile picture as most websites utilise round images for that purpose. I highlight any key information with a bright colour to make reading any title or block of text aesthetically pleasing and to break up information nicely. Using a dark background really makes the white letters pop and is easy on the eyes.
-
-![About page - Desktop](./docs/about-page-wireframe-desktop.jpg)
-
-![About page - Tablet](/docs/about-page-wireframe-tablet.jpg)
-
-![About page - Mobile](/docs/about-page-wireframe-mobile.jpg)
-
-I wanted the about page to be very colorful as I wanted this page to be showcasing my personality. I shared my hobbies, where I live and my favourite quote from a character on a TV show that I enjoy which the employer can also relate to a positive work ethic. Big bold headings again were utilised with color throughout all text. The skills section is also very colorful with individual tools and languages highlighted with an accent colour and a white border to help them pop on the screen. I display my work history with a big bright red button to download my resume that is very inviting. 
+I only made simple wireframes as I felt that high fidelity wireframes would take too long and since there isn't a huge amount of information and pages that need to be done for the entire site I would use them as only a guide for how I want the main components to be placed. Starting with the home page, I wanted big bold headings that introduced me immediately with a profile picture that would let the employer put a face to the name. I designed the shape of the image to be circular so that it was very clearly a profile picture as most websites utilise round images for that purpose. I highlight any key information with a bright colour to make reading any title or block of text aesthetically pleasing and to break up information nicely. Using a dark background really makes the white letters pop and is easy on the eyes. I wanted the about page to be very colorful as I wanted this page to be showcasing my personality. I shared my hobbies, where I live and my favourite quote from a character on a TV show that I enjoy which the employer can also relate to a positive work ethic. Big bold headings again were utilised with color throughout all text. The skills section is also very colorful with individual tools and languages highlighted with an accent colour and a white border to help them pop on the screen. I display my work history with a big bright red button to download my resume that is very inviting.
 
 I made the colours throughout the website based on the moodboard and incorporating them in a sleek and modern fashion for employers. My font choice was something that looked great in bold and in regular font weighting and also wanted something familiar and professional looking. Ultimately deciding on the "Barlow" font for its versatility and aesthetics. It looked like a completely different font based on the font weighting which I loved.
-
-![Blog page - Desktop](./docs/blog-page-wireframe-desktop.jpg)
-
-![Blog page - Tablet](./docs/blog-page-wireframe-tablet.jpg)
-
-![Blog page - Mobile](./docs/blog-page-wireframe-mobile.jpg)
-
-The blog page was very simple, I wanted it to be mainly for reading my thoughts so I didn't want too much color to distract from the big blocks of text that will be put in there. Ending each blog post with an image that relates to the blog subject, I feel breaks the page up nicely and makes it a little more interesting.
-
-![Project page - Desktop](./docs/project-page-wireframe-desktop.jpg)
-
-![Project page - Tablet](./docs/project-page-wireframe-tablet.jpg)
-
-![Project page - Mobile](./docs/project-page-wireframe-mobile.jpg)
-
-My favourite page is the project page. I wanted this to also be very colorful with a lot of images to get the employer excited about my work. It's a good way to showcase your hard work with a page that really pops. I wanted huge images of any projects with big colorful boxes for the tech/tools used with big, bright red inviting buttons to review the code or see it in action. When I have portfolio projects to showcase I'm plan to lay out the image and text boxes to be opposite from each other as they take up space going down on the page to really make the page interesting.
+The blog page was very simple, I wanted it to be mainly for reading my thoughts so I didn't want too much color to distract from the big blocks of text that will be put in there. Ending each blog post with an image that relates to the blog subject, I feel breaks the page up nicely and makes it a little more interesting. My favourite page is the project page. I wanted this to also be very colorful with a lot of images to get the employer excited about my work. It's a good way to showcase your hard work with a page that really pops. I wanted huge images of any projects with big colorful boxes for the tech/tools used with big, bright red inviting buttons to review the code or see it in action. When I have portfolio projects to showcase I'm plan to lay out the image and text boxes to be opposite from each other as they take up space going down on the page to really make the page interesting.
 
 
 I utilised a real time colour website for colour placement:
