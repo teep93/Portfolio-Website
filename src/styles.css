@@ -15,7 +15,7 @@
     height: 100vh;
 }
 
-
+/* Component */
 
 #responsive-container {
     width: 100%;
@@ -24,7 +24,7 @@
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     
-    
+/* Component */    
     
   }
 
@@ -41,7 +41,7 @@ a {
 ul {
     list-style-type: none;
 }
-
+/* Component */
 
 #nav-bar {
     display: flex;
@@ -53,6 +53,7 @@ ul {
 
 } 
 
+
 #nav-wrapper {
     height: 50px;
     width: 100%;
@@ -63,7 +64,7 @@ ul {
     
 }
 
-
+/* Component */
 .nav-item a {
     font-size: 1.5rem;
     background-color:#4F4F4F;
@@ -73,6 +74,8 @@ ul {
     
 }
 
+/* Component */
+
 .nav-item img {
     width: 2rem;
     height: 2rem;
@@ -80,6 +83,7 @@ ul {
     background-color:#4F4F4F
     
 }
+/* Component */
 
 .profile-picture {
     width: 300px; 
@@ -88,11 +92,15 @@ ul {
     overflow: hidden; 
 }
 
+/* Component */
+
 .profile-picture img {
     width: 100%; 
     height: 100%; 
     object-fit: cover;
   }
+
+  /* Component */
 
 .image-container {
     width: 50%;
@@ -119,6 +127,8 @@ button {
         font-weight: bold; 
 }
 
+/* Component */
+
 .image-container img {
     width: 100%; 
     height: 100%; 
@@ -126,7 +136,7 @@ button {
     
   }  
 
-  
+ /* Component */ 
 
 .footer-container {
     /* margin-top: 5rem; */
@@ -137,6 +147,7 @@ button {
 
 } 
 
+/* Component */
 .footer-container a {
     display: flex;
     justify-content: flex-start;
@@ -144,7 +155,7 @@ button {
 }
 
 
-
+/* Component */
 .skills-box img {
     object-fit:fill;
     
@@ -153,6 +164,7 @@ button {
 
 
     /*home page*/ 
+    /* Component */
     .hero-text {
         display: flex;
         flex-direction: column;
@@ -190,7 +202,7 @@ button {
         text-align: center;
         padding: 2rem;
     }
-
+/* Component */
     #nav-bar {
         justify-content: space-around;
 
@@ -208,7 +220,7 @@ button {
     }    
     
 
-
+/* Component */
     .blog-preview {
         display: flex;
         flex-direction: column;
@@ -216,7 +228,7 @@ button {
         
 
     }
-
+/* Component */
     .blog-preview-text {
         margin-top: 1rem;
         display: flex;
@@ -243,6 +255,7 @@ button {
         align-self: flex-end;
         text-decoration: underline;
     }
+    /* Component */
 
     .socials > .skills-boxes > .skills-box img {
         background-color: #0A0A0A;
@@ -250,7 +263,7 @@ button {
     }
 
 
-
+/* Component */
     .socials > .skills-boxes > .skills-box {
         margin-top: 3rem;
         margin-bottom: 3rem;
@@ -285,13 +298,13 @@ button {
     .hero-text li {
         font-size: 2rem;
     }
-
+/* Component */
   
     .skills-container {
         text-align: center;
 
     }
-
+/* Component */
     .skills-boxes {
         display: flex;
         flex-wrap: wrap;
@@ -301,7 +314,7 @@ button {
         gap: 1rem;
         
     }
-
+/* Component */
     .skills-box, .skills-box + .skills-box {
         display: flex;
         justify-content: center;
@@ -312,7 +325,7 @@ button {
         
         
     }
-
+/* Component */
     .skills-box img {
         background-color:#4F4F4F;
     }
@@ -372,7 +385,7 @@ button {
         text-decoration:underline;
         
     }
-
+/* Component */
     .blog-post-content {
         display: flex;
         flex-direction: column;
@@ -394,18 +407,18 @@ button {
     .project-title h1 {
         text-align: center;
     }
-
+/* Component */
     .project-box {
         display: flex;
         align-items: center;
 
     }
-
+/* Component */
     .project-box > img {
         height: 500px;
         width: 500px;
     }
-
+/* Component */
     .project-info {
         display: flex;
         flex-direction: column;
